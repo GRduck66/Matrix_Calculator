@@ -105,7 +105,6 @@ def two_oper():
 
         st.write("Operator")
         with st.container(border=True):
-            st.write("Wait a min")
             operator = st.selectbox('Select Operator: ', two_operator)
             calc_button = st.button('Get Result')
 
